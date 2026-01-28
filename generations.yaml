@@ -1,0 +1,27 @@
+references:
+  - "https://en.wikipedia.org/wiki/Mazda_Tribute"
+
+generations:
+  - name: "First Generation"
+    start_year: 2000
+    end_year: 2004
+    description: "First generation EP platform compact SUV, jointly developed with Ford. Offered 2.0L four-cylinder or 3.0L V6 engines with front or all-wheel drive. Conservative styling resembling the retired Mazda Navajo."
+    platform: "EP"
+
+  - name: "First Generation (2004 Facelift)"
+    start_year: 2004
+    end_year: 2006
+    description: "2004 facelift with updated 2.3L MZR inline-four engine (replacing 2.0L), new floor-mounted automatic shifter, and revised model naming (Tribute i for four-cylinder, Tribute s for V6)."
+    platform: "EP"
+
+  - name: "First Generation (Asia-Pacific Facelift)"
+    start_year: 2006
+    end_year: 2010
+    description: "Asia-Pacific specific facelift with bolder grille, restyled front bumper and headlights, updated dashboard with new radio, electronic climate control, and rear disc brakes replacing drums."
+    platform: "EP"
+
+  - name: "Second Generation"
+    start_year: 2007
+    end_year: 2011
+    description: "Major revamp on CD2 platform for 2008 model year. All-new sheet metal and significantly upgraded interior with higher quality materials. New 2.5L L5-VE I4 engine in 2009 with 6-speed automatic on V6 models. Discontinued end of 2011, replaced by Mazda CX-5."
+    platform: "CD2"
