@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220918
+test_cases:
+- expected_values:
+    TRIBUTE_TP2_V: 0.811
+  response: 7E805620918032B
+- expected_values:
+    TRIBUTE_TP2_V: 1.271
+  response: 7E80562091804F7
+- expected_values:
+    TRIBUTE_TP2_V: 1.28
+  response: '7E8056209180500'
+- expected_values:
+    TRIBUTE_TP2_V: 4.553
+  response: 7E80562091811C9

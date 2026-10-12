@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    TRIBUTE_DIST_DTC_CLR: 443
+  response: 7E80562F43101BB
+- expected_values:
+    TRIBUTE_DIST_DTC_CLR: 769
+  response: 7E80562F4310301
+- expected_values:
+    TRIBUTE_DIST_DTC_CLR: 1531
+  response: 7E80562F43105FB
+- expected_values:
+    TRIBUTE_DIST_DTC_CLR: 4273
+  response: 7E80562F43110B1

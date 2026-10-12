@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221E13
+test_cases:
+- expected_values:
+    TRIBUTE_TURBINE_RPM: 1936.5
+  response: 7E805621E131E42

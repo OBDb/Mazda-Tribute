@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220301
+test_cases:
+- expected_values:
+    TRIBUTE_MAP_V: 0.71289
+  response: 7E80562030102DA
+- expected_values:
+    TRIBUTE_MAP_V: 2.00195
+  response: '7E8056203010802'
+- expected_values:
+    TRIBUTE_MAP_V: 3.49609
+  response: 7E8056203010DFC
+- expected_values:
+    TRIBUTE_MAP_V: 3.56934
+  response: 7E8056203010E47

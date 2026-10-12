@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F43C
+test_cases:
+- expected_values:
+    TRIBUTE_CAT_TEMP: 351.1
+  response: 7E80562F43C0F47
+- expected_values:
+    TRIBUTE_CAT_TEMP: 472.2
+  response: 7E80562F43C1402
+- expected_values:
+    TRIBUTE_CAT_TEMP: 599.7
+  response: 7E80562F43C18FD
+- expected_values:
+    TRIBUTE_CAT_TEMP: 755.1
+  response: 7E80562F43C1F0F

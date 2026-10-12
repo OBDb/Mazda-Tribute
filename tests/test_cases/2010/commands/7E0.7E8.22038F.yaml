@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22038F
+test_cases:
+- expected_values:
+    TRIBUTE_ECT: 44.6875
+  response: 7E80562038F0B2C
+- expected_values:
+    TRIBUTE_ECT: 63.89062
+  response: 7E80562038F0FF9
+- expected_values:
+    TRIBUTE_ECT: 92.07812
+  response: 7E80562038F1705
+- expected_values:
+    TRIBUTE_ECT: 96.46875
+  response: 7E80562038F181E

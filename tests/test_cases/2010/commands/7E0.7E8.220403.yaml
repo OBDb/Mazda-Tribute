@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220403
+test_cases:
+- expected_values:
+    TRIBUTE_KS1_RAW: 112
+  response: '7E8056204030070'
+- expected_values:
+    TRIBUTE_KS1_RAW: 256
+  response: '7E8056204030100'
+- expected_values:
+    TRIBUTE_KS1_RAW: 510
+  response: 7E80562040301FE
+- expected_values:
+    TRIBUTE_KS1_RAW: 800
+  response: '7E8056204030320'

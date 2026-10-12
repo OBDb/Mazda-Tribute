@@ -1,0 +1,5 @@
+command_id: 720.728.22C901
+test_cases:
+- expected_values:
+    TRIBUTE_C901_RAW: 5
+  response: 7280462C90105

@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221E14
+test_cases:
+- expected_values:
+    TRIBUTE_TCC_SLIP: 507
+  response: 7E805621E1407EC

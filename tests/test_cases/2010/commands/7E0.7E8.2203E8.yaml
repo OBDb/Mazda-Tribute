@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203E8
+test_cases:
+- expected_values:
+    TRIBUTE_OAR: 0.04724
+  response: 7E8056203E80306
+- expected_values:
+    TRIBUTE_OAR: 0
+  response: 7E8056203E8E700
+- expected_values:
+    TRIBUTE_OAR: 0
+  response: 7E8056203E8EAF6
+- expected_values:
+    TRIBUTE_OAR: 0
+  response: 7E8056203E8FE70

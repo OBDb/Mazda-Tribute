@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F411
+test_cases:
+- expected_values:
+    TRIBUTE_THROTTLE_POS: 13.33333
+  response: 7E80462F41122

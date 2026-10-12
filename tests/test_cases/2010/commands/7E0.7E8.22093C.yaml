@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    TRIBUTE_ETC_ANG_ACT: 1.85352
+  response: 7E80562093C03B5
+- expected_values:
+    TRIBUTE_ETC_ANG_ACT: 2.5
+  response: 7E80562093C0500
+- expected_values:
+    TRIBUTE_ETC_ANG_ACT: 80.99414
+  response: 7E80562093CA1FD
+- expected_values:
+    TRIBUTE_ETC_ANG_ACT: 81
+  response: 7E80562093CA200
