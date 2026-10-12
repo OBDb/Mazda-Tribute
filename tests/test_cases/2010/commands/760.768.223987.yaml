@@ -1,0 +1,8 @@
+command_id: 760.768.223987
+test_cases:
+- expected_values:
+    TRIBUTE_ABS_WHL_SPD_1: 75
+    TRIBUTE_ABS_WHL_SPD_2: 75
+    TRIBUTE_ABS_WHL_SPD_3: 75
+    TRIBUTE_ABS_WHL_SPD_4: 75
+  response: 768076239874B4B4B4B

@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    TRIBUTE_RUN_TIME: 79
+  response: 7E80562F41F004F
+- expected_values:
+    TRIBUTE_RUN_TIME: 253
+  response: 7E80562F41F00FD
+- expected_values:
+    TRIBUTE_RUN_TIME: 256
+  response: 7E80562F41F0100
+- expected_values:
+    TRIBUTE_RUN_TIME: 1288
+  response: 7E80562F41F0508

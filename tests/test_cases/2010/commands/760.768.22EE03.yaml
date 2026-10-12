@@ -1,0 +1,5 @@
+command_id: 760.768.22EE03
+test_cases:
+- expected_values:
+    TRIBUTE_EE03_RAW: 0
+  response: 7680462EE0300

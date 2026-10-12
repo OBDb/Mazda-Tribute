@@ -1,0 +1,8 @@
+command_id: 720.728.226185|f=-2012
+test_cases:
+- expected_values:
+    TRIBUTE_FLI_ALT: 23.52941
+  response: 728046261853C
+- expected_values:
+    TRIBUTE_FLI_ALT: 98.03922
+  response: 72804626185FA

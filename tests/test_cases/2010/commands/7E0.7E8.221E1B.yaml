@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.221E1B
+test_cases:
+- expected_values:
+    TRIBUTE_OUTPUT_RPM: 1222.75
+  response: 7E805621E1B131B

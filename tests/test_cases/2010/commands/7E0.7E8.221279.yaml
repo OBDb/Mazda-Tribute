@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    TRIBUTE_IAT_SENS_V: 1.61779
+  response: 7E805621279014B
+- expected_values:
+    TRIBUTE_IAT_SENS_V: 2.48289
+  response: 7E80562127901FC
+- expected_values:
+    TRIBUTE_IAT_SENS_V: 2.53666
+  response: '7E8056212790207'

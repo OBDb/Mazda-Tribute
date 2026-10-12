@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220378
+test_cases:
+- expected_values:
+    TRIBUTE_GEN_CTRL: 38.57118
+  response: 7E805620378315E

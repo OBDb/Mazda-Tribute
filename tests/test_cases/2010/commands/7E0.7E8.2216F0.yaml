@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2216F0
+test_cases:
+- expected_values:
+    TRIBUTE_TIRESIZE: 720
+  response: 7E8056216F002D0

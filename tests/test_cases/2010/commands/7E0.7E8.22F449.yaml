@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F449
+test_cases:
+- expected_values:
+    TRIBUTE_APP_D: 28.62745
+  response: 7E80462F44949

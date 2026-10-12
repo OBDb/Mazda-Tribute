@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220307
+test_cases:
+- expected_values:
+    TRIBUTE_LPFP_DUTY: 39.36462
+  response: '7E8056203073263'
+- expected_values:
+    TRIBUTE_LPFP_DUTY: 40.62195
+  response: 7E80562030733FF
+- expected_values:
+    TRIBUTE_LPFP_DUTY: 41.40625
+  response: '7E8056203073500'
+- expected_values:
+    TRIBUTE_LPFP_DUTY: 47.99805
+  response: 7E8056203073D70
