@@ -225,9 +225,9 @@
   "signals": [
     {"id": "TRIBUTE_TIRESIZE", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire revolutions per mile"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 2, "dbgfilter": { "to": 2009, "from": 2011 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2009, "from": 2011 },
   "signals": [
-    {"id": "TRIBUTE_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+    {"id": "TRIBUTE_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "suggestedMetric": "gear", "fmt": {"len": 8, "map": {
           "1":  { "description": "First gear",   "value": "1" },
           "2":  { "description": "Second gear",  "value": "2" },
           "3":  { "description": "Third gear",   "value": "3" },
@@ -269,14 +269,20 @@
   "signals": [
     {"id": "TRIBUTE_TOT", "path": "Transmission", "fmt": { "len": 16, "max": 255, "min": -40, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 2, "dbgfilter": { "to": 2009, "from": 2011 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E23"}, "freq": 0.25, "dbgfilter": { "to": 2009, "from": 2011 },
   "signals": [
-    {"id": "TRIBUTE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
-          "10": { "description": "Manual",  "value": "MANUAL" },
-          "46": { "description": "Drive",   "value": "DRIVE" },
-          "50": { "description": "Neutral", "value": "NEUTRAL" },
-          "60": { "description": "Reverse", "value": "REVERSE" },
-          "70": { "description": "Park",    "value": "PARK" }
+    {"id": "TRIBUTE_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "suggestedMetric": "gearSelector", "fmt": {"len": 8, "map": {
+          "10":  { "description": "Manual",  "value": "MANUAL" },
+          "20":  { "description": "Low",     "value": "LOW" },
+          "40":  { "description": "Drive",   "value": "DRIVE" },
+          "46":  { "description": "Drive",   "value": "DRIVE" },
+          "50":  { "description": "Neutral", "value": "NEUTRAL" },
+          "60":  { "description": "Reverse", "value": "REVERSE" },
+          "70":  { "description": "Park",    "value": "PARK" },
+          "100": { "description": "Park",    "value": "PARK" },
+          "101": { "description": "Reverse", "value": "REVERSE" },
+          "102": { "description": "Neutral", "value": "NEUTRAL" },
+          "103": { "description": "Drive",   "value": "DRIVE" }
         }}
     }
   ]},
